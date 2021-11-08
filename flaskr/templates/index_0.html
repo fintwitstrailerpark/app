@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charSet="utf-8"/>
+        <title>Mint Crazy Crows - Crazy Crows Chess Club - A collection of 8,181 Crows who are crazy about Chess</title>
+        <link rel="icon" href="static/images/favicon.jpg"/>
+        <meta property="og:title" content="Crazy Crows Chess Club"/>
+        <meta property="og:description" content=""/>
+        <link rel="preload" href="static/assets/css/f27eb3bef15cc0b6ff85.css" as="style"/>
+        <link rel="stylesheet" href="static/assets/css/f27eb3bef15cc0b6ff85.css" data-n-g=""/>
+
+        <script src='static/assets/jquery/jquery-3.6.0.min.js'></script>
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <script src="static/js/shared/abi/erc721.js"></script>
+        <script src="static/js/shared/abi/simpleMarketplace.js"></script>
+        <script src="static/js/shared/addresses.js"></script>
+        <script src="static/js/shared/wallet.js"></script>
+        <script src="static/js/shared/connect.js"></script>
+        <script src="static/js/shared/functions.js"></script>
+
+    </head>
+
+    <body>
+        <div id="__next">
+            <div id="bodyy" class="lex flex-col items-center justify-center min-h-screen py-2">
+                <div class="md:container md:mx-auto md:w-2/3 w-full">
+                    <nav class="flex justify-between items-center flex-wrap py-5">
+                        <a class="inline-flex items-center p-2 mr-4 " href="index.html">
+                            <span class="text-xl text-white font-bold uppercase tracking-wide">
+                                <div style="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
+                                    <div style="box-sizing:border-box;display:block;max-width:100%">
+                                        <img style="max-width:100%;display:block;margin:0;border:none;padding:0" alt="" aria-hidden="true" role="presentation" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA4IiBoZWlnaHQ9IjEwOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="/>
+                                    </div>
+                                    <noscript>
+                                        <img alt="" src="static/images/logo.png" decoding="async" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" class="logo-image"/>
+                                    </noscript>
+                                    <img alt="" src="static/images/logo.png" decoding="async" class="logo-image" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/>
+                                </div>
+                            </span>
+                        </a>
+                        <button class=" inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none" onclick="mobileMenu()">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                        <div class="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto" id="menu">
+                            <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+                                <a class="RobotoSlab lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white " href="#">About</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Project Plan</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Story</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Roadmap</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Art</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Team</a>
+                                <a class="RobotoSlab text-lg lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white" href="#">Contact</a>
+                                <a class="RobotoSlab lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-tan items-center justify-center text-2xl font-bold hover:text-green" href="https://twitter.com/crazycrowsclub">TWITTER</a>
+                                <a class="RobotoSlab lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-tan items-center justify-center text-2xl font-bold hover:text-green" href="https://discord.gg/KVHzwW3mRd">DISCORD</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col justify-center py-6 sm:px-6 lg:px-8">
+                        <div class="sm:mx-auto sm:w-full sm:max-w-md">
+
+
+                            <h2 class="RobotoSlab mt-6 text-center text-3xl font-extrabold text-white">Mint Your Crazy Crows!</h2>
+                            <h4 class="RobotoSlab mt-6 text-center text-3xl font-extrabold text-white" id="minted"></h4>
+                            <!-- <p class="mt-2 text-center text-sm text-white">SOLD OUT!</p> -->
+                        </div>
+                        <div class="flex items-center justify-center mt-20">
+                          <!-- <a class="text-center RobotoSlab text-2xl font-bold text-white bg-tan px-4 py-2 inline-flex rounded-lg" href="https://opensea.io/collection/crazy-crows-chess-club">Buy On OpenSea!</a> -->
+                          <input type="number" max="20" min="1" name="count" id="count" min='1' placeholder="1" onkeyup="updateValue()">
+                          <a class="text-center RobotoSlab text-2xl font-bold text-white bg-tan px-4 py-2 inline-flex rounded-lg" style="margin-left: 10px; cursor: pointer;" onclick="mint()">Mint</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function mobileMenu() {$('#menu').toggleClass("hidden");}
+        </script>
+        <script src='static/js/index.js'></script>
+    </body>
+</html>

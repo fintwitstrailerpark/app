@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Trailer park</title>
+    <link rel="stylesheet" href="static/public/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=Kaisei+Tokumin:wght@800&family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <script src='static/assets/jquery/jquery-3.6.0.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="static/js/shared/abi/erc721.js"></script>
+    <script src="static/js/shared/abi/simpleMarketplace.js"></script>
+    <script src="static/js/shared/addresses.js"></script>
+    <script src="static/js/shared/wallet.js"></script>
+    <script src="static/js/shared/connect.js"></script>
+    <script src="static/js/shared/functions.js"></script>
+
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">THE TRAILER PARK</a>
+        </div>
+        <div class="links">
+            <a href="#">Home Page</a>
+            <a href="#">Team Page</a>
+            <a href="#">Token Page</a>
+        </div>
+        <div class="social">
+            <img src="static/public/twitter.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h1 class="title">
+                Mint Degenerates
+            </h1>
+            <h1 class="title2" id="minted" style="color: #bdbfef;">
+            </h1>
+            <form action="#" class="mint-section">
+                <!-- <input type="number" name="count" id="count" value="1" min="1" max="20"> -->
+                <input type="number" max="20" min="1" name="count" id="count" min='1' value="1" onkeyup="updateValue()">
+
+                <button onclick="mint()">Mint</button>
+            </form>
+        </div>
+
+    </main>
+    <script src='static/js/index.js'></script>
+
+</body>
+</html>
